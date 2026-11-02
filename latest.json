@@ -1,11 +1,14 @@
 {
-  "versionCode": 3,
-  "versionName": "4.3",
+  "versionCode": 4,
+  "versionName": "4.4",
   "notes": [
-    "앱 업데이트 자동 감지 및 설치 경로 점검",
-    "현장 확인의 기본 품목을 12센터로 유지",
-    "기존 작업기록을 보존하는 버전 전환 시험"
+    "햄버거 메뉴에 버전별 패치노트 추가",
+    "배터리·12센터 품목별 실측 참고 예측과 부족 위험 경고",
+    "업데이트 화면·앱 정보의 버전 및 빌드 표시 통일",
+    "안드로이드 불출 5분 전 알림 예약 기능(기기 절전 시 지연 가능)",
+    "전용 LINE12 앱 아이콘 적용",
+    "기존 작업기록 저장 방식 유지"
   ],
-  "apkUrl": "https://raw.githubusercontent.com/totemismsuhak-cmd/12line-updates/main/apk/line12-v4.3.apk",
-  "sha256": "4c2def903bd944acd1a36817abf9ad22cdd6329cd277dd268f1a5da42446999b"
+  "apkUrl": "https://raw.githubusercontent.com/totemismsuhak-cmd/12line-updates/main/apk/line12-v4.4.apk",
+  "sha256": "5bf6a65b548a2ccaa402290f9a7b3970c4b2533c293eed731e616a942ee5fba0"
 }

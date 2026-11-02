@@ -5,8 +5,6 @@
   "certificateMatchesV41": true,
   "releasePublished": true,
   "releaseManifestPath": "latest.json",
-  "versionName": "4.3",
-  "versionCode": 3,
-  "lastChecked": "2026-11-03",
-  "message": "V4.3 is published; V4.4 source changes are not yet released."
+  "versionName": "4.4",
+  "versionCode": 4
 }
