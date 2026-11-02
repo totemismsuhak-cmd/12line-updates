@@ -1,0 +1,11 @@
+{
+  "versionCode": 3,
+  "versionName": "4.3",
+  "notes": [
+    "앱 업데이트 자동 감지 및 설치 경로 점검",
+    "현장 확인의 기본 품목을 12센터로 유지",
+    "기존 작업기록을 보존하는 버전 전환 시험"
+  ],
+  "apkUrl": "https://raw.githubusercontent.com/totemismsuhak-cmd/12line-updates/main/apk/line12-v4.3.apk",
+  "sha256": "4c2def903bd944acd1a36817abf9ad22cdd6329cd277dd268f1a5da42446999b"
+}
