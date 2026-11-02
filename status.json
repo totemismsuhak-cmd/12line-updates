@@ -1,8 +1,10 @@
 {
   "service": "line12-dispatch-updates",
-  "status": "bootstrap",
+  "status": "signed-v4.2-awaiting-publication",
+  "sourceBuildValidated": true,
+  "certificateMatchesV41": true,
   "releasePublished": false,
   "releaseManifestPath": "latest.json",
   "lastChecked": "2026-11-02",
-  "message": "Public endpoint available. Signed update not published yet."
+  "message": "V4.2 compiled and signed with the existing V4.1 certificate; public APK publishing and on-device in-place upgrade are not yet validated."
 }
