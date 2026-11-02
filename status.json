@@ -1,0 +1,8 @@
+{
+  "service": "line12-dispatch-updates",
+  "status": "bootstrap",
+  "releasePublished": false,
+  "releaseManifestPath": "latest.json",
+  "lastChecked": "2026-11-02",
+  "message": "Public endpoint available. Signed update not published yet."
+}
