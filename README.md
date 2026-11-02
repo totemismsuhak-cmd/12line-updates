@@ -1,15 +1,16 @@
-# LINE 12 — Public Android update distribution
+# LINE12 — Android update distribution
 
-This repository is the **public, read-only distribution endpoint** for the 12라인 불출 플래너 Android app.
+Public distribution endpoint for the personal LINE12 dispatch planner.
 
-- Private app source: `totemismsuhak-cmd/12LINE` (not mirrored here)
-- Release manifest: `latest.json` (will only be published when a correctly signed, installable APK exists)
-- Signed packages: `apk/line12-vX.Y.apk`
-- Manifest/API URLs use HTTPS and don't require a GitHub login.
-- `latest.json` must include monotonically increasing `versionCode`, `versionName`, `notes`, `apkUrl`, and a verified `sha256` of the APK.
-- Do **not** commit private signing keys, passwords, access tokens, or user work records.
+- Current released version and SHA-256: [latest.json](latest.json)
+- Signed APKs: `apk/line12-vX.Y.apk`
+- Publication status: [status.json](status.json)
+- Android checks `latest.json`, downloads the APK via HTTPS, verifies SHA-256, then requests **user-confirmed** installation.
 
-## Release lifecycle
-Build the app in the private repo → sign with the same certificate used for V4.1 → verify package ID and APK SHA-256 → publish APK here → publish `latest.json` **last**. The app checks the public manifest, verifies the downloaded APK SHA-256, and asks Android to install it with user confirmation. App installation and existing-data preservation still require testing on-device.
+## Release rules
 
-**Current state:** Bootstrap repository set up. No public update has been published yet. Keep V4.1 installed until a signed V4.2 APK is ready and verified.
+The source repository is private. A signed release is produced by its protected GitHub Actions workflow using the original signing certificate. The workflow checks package ID and certificate, uploads the signed APK, and **publishes the manifest last**. Do not upload a manifest for an unavailable APK.
+
+The owner must approve installation in Android. Existing records should survive signed in-place updates because the package identity and WebView storage origin are preserved, but on-device verification and backup are recommended.
+
+Never publish signing keys, passwords, access tokens, or real work records here. Release information only; no private source code.
