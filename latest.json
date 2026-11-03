@@ -1,14 +1,15 @@
 {
-  "versionCode": 4,
-  "versionName": "4.4",
+  "versionCode": 5,
+  "versionName": "4.5",
   "notes": [
-    "햄버거 메뉴에 버전별 패치노트 추가",
-    "배터리·12센터 품목별 실측 참고 예측과 부족 위험 경고",
-    "업데이트 화면·앱 정보의 버전 및 빌드 표시 통일",
-    "안드로이드 불출 5분 전 알림 예약 기능(기기 절전 시 지연 가능)",
-    "전용 LINE12 앱 아이콘 적용",
-    "기존 작업기록 저장 방식 유지"
+    "미니게임: 스네이크·기억력 카드 맞추기",
+    "생활 도구함: 메모·할 일·계산기·멀티 타이머·날짜 계산·즐겨찾기",
+    "현장 빠른 입력·라인 정지 타이머·이전 계산 복원",
+    "품목별 실측 위험 안내·업무 집중 모드·불출 시간 차이 통계",
+    "홈 화면 위젯·기기 인증 잠금·글자 크기",
+    "개인 도구 백업·백업 알림·버전별 패치노트",
+    "버튼 한 번으로 업데이트 확인 및 다운로드"
   ],
-  "apkUrl": "https://raw.githubusercontent.com/totemismsuhak-cmd/12line-updates/main/apk/line12-v4.4.apk",
-  "sha256": "5bf6a65b548a2ccaa402290f9a7b3970c4b2533c293eed731e616a942ee5fba0"
+  "apkUrl": "https://raw.githubusercontent.com/totemismsuhak-cmd/12line-updates/main/apk/line12-v4.5.apk",
+  "sha256": "7047c004126f04f78c4dd33f6ea54e1921c644f9c4022e7ee67d3091f765e571"
 }
