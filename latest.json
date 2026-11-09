@@ -1,15 +1,15 @@
 {
-  "versionCode": 6,
-  "versionName": "4.6",
+  "versionCode": 7,
+  "versionName": "4.7",
   "notes": [
-    "12판넬 전용 불출·설정 화면 및 홈 독립 시간 표시",
-    "12판넬 대차 1대 24개, 재고 24개 도달 시 별도 불출 계산",
-    "출근 후 실측 재고와 확인 시각으로 독립 계산 시작",
-    "불출 직전 실재고 + 24개로 갱신, 12판넬 이력·직전 입력 취소",
-    "공통 라인 피치·공피치·휴식·정지 적용, 기존 품목 불출 기록 유지",
-    "차량당 소비량·공피치 소모 여부 확인 전에는 예상 시각 비활성화",
-    "12판넬 별도 기록·이력을 기존 전체 백업에 포함"
+    "12판넬 설정 간소화: 기준 시각과 재고 입력만으로 계산",
+    "재고 46개면 정상 차량 22대 생산 후 24개 도달 시 불출",
+    "12판넬 근무시간 전체 예상 불출 시각 연속 표시",
+    "기존 정상피치·공피치 비율과 라인 정지 자동 동기화",
+    "메인 화면에 12판넬 다음 불출 시간 별도 표시",
+    "현장 재고 확인·실재고+24개 불출 완료·직전 입력 취소",
+    "기존 불출 계산·작업기록·미니게임 유지"
   ],
-  "apkUrl": "https://raw.githubusercontent.com/totemismsuhak-cmd/12line-updates/main/apk/line12-v4.6.apk",
-  "sha256": "44b4f1befffa0594254049ff2b46621b80458c51f84a9c88e0a739c46f39ca0e"
+  "apkUrl": "https://raw.githubusercontent.com/totemismsuhak-cmd/12line-updates/main/apk/line12-v4.7.apk",
+  "sha256": "ac09d77b3b12f2d3323eba255564a3ebdefeee3bf98104c62cf9c6a76261614d"
 }
