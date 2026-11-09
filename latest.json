@@ -1,14 +1,15 @@
 {
-  "versionCode": 8,
-  "versionName": "4.8",
+  "versionCode": 9,
+  "versionName": "4.9",
   "notes": [
-    "12판넬에 12센터와 같은 차량·공피치 그림 선택 기능 추가",
-    "12판넬 재고 확인 시각의 현재 차량 또는 빈 피치 선택·적용",
-    "선택한 피치 위치로 12판넬 불출 시각 즉시 재계산",
-    "정상피치·공피치 비율과 라인 정지 기존 설정 자동 동기화",
-    "미선택 시 시간 범위 안내, 선택 후 다음 불출 시간 간단 표시",
-    "24개 남으면 불출·한 대차 24개, 기존 불출 이력 보존"
+    "12판넬 초기 재고·공피치 확인 후 불출 완료만 누르는 기존 품목 방식 적용",
+    "12판넬 불출 완료 시 재고 추가 입력 없이 1대차 24개 공급 반영",
+    "12판넬 현장 재고 확인은 별도 메뉴·화면으로 분리",
+    "12판넬 대차번호 독립 수정 및 불출 후 자동 증가",
+    "메인 불출 시간 영역에 12판넬 시각·대차번호·완료 버튼 통합",
+    "배터리 20·VCU 40·12센터 20·12판넬 24개 대차 수량 표시",
+    "기존 생산피치·공피치·휴식·라인 정지 공유 및 작업기록 보존"
   ],
-  "apkUrl": "https://raw.githubusercontent.com/totemismsuhak-cmd/12line-updates/main/apk/line12-v4.8.apk",
-  "sha256": "618cb54de7bc2da9d4d2138ca5eb4ab59aab360747023d54b98f55c124c84652"
+  "apkUrl": "https://raw.githubusercontent.com/totemismsuhak-cmd/12line-updates/main/apk/line12-v4.9.apk",
+  "sha256": "ef64007713c14d0bbc65f803300c941f47fe641f78f402397fcf6e3a6c1d6910"
 }
